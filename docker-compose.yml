@@ -1,0 +1,9 @@
+services:
+  ops:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./:/work
+    working_dir: /work
+
