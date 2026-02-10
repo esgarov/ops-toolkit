@@ -7,6 +7,10 @@ Collects a quick Linux system snapshot for troubleshooting and automation.
 ```bash
 docker compose run --rm ops ./src/system_snapshot.sh
 
+```bash
+docker compose run --rm ops ./src/system_snapshot.sh --json
+
+
 ## Exit codes
 - `0` — OK
 - `1` — Warning (threshold exceeded)

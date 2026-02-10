@@ -6,3 +6,6 @@ Designed to run on Linux (Ubuntu). A Docker-based runtime is provided for consis
 ## Quick start (Docker / Ubuntu)
 ```bash
 docker compose run --rm ops ./src/system_snapshot.sh
+
+```bash
+docker compose run --rm ops ./src/system_snapshot.sh --json
